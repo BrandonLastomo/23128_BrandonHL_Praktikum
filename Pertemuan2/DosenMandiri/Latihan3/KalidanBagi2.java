@@ -11,9 +11,13 @@ package Pertemuan2.DosenMandiri.Latihan3;
 public class KalidanBagi2 {
 
     public static void perkalian(int a){
+        // mengalikan dengan 2 menggunakan operator bitwise << 1 karena operator << 1 berarti
+        // menggeser 1 bit ke kiri yang sama dengan mengalikan dengan 2
         System.out.println("Hasil dari " + a + " dikali 2 adalah " + (a << 1));
     }
     public static void pembagian(int a){
+        // membagi dengan 2 menggunakan operator bitwise >> 1 karena operator >> 1 berarti
+        // menggeser 1 bit ke kanan yang sama dengan membagi dengan 2
         System.out.println("Hasil dari " + a + " dibagi 2 adalah " + (a >> 1));
     }
     

@@ -18,6 +18,7 @@ public class Pembanding {
         boolean hasilBanding1 = age < 25;
         boolean hasilBanding2 = age != 26;
         
+        // menampilkan nilai dari hasilBanding1 dan hasilBanding2
         System.out.println("Hasil banding 1 adalah " + hasilBanding1);
         System.out.println("Hasil banding 2 adalah " + hasilBanding2);
     }

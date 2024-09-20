@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Pertemuan2.DosenKelompok.Latihan4;
+package Pertemuan2.DosenKelompok.Latihan4.rumusBangun;
 
 /**
  *
@@ -20,8 +20,8 @@ public class BangunDatar {
     }
     
     // segitiga
-    public double kelilingSegitiga(double s){
-        return (3*s);
+    public double kelilingSegitiga(double s1, double s2, double s3){
+        return (s1+s2+s3);
     }
     public double luasSegitiga(double a, double t){
         return (a*t)/2;
@@ -36,10 +36,10 @@ public class BangunDatar {
     }
     
     // persegi empat (bujur sangkar)
-    public double kelilingPersegiEmpat(double s){
+    public double kelilingPersegi(double s){
         return 4*s;
     }
-    public double luasPersegiEmpat(double s){
+    public double luasPersegi(double s){
         return (s*s);
     }
 }

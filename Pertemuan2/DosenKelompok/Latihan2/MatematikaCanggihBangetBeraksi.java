@@ -14,8 +14,10 @@ public class MatematikaCanggihBangetBeraksi {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        // Membuat objek dari class MatematikaCanggihBanget
         MatematikaCanggihBanget operasiMatematika = new MatematikaCanggihBanget();
         
+        // Memanggil method
         operasiMatematika.tambah(1, 2);
         operasiMatematika.kali(10, 15);
         operasiMatematika.modulus(5, 2);

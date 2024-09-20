@@ -20,6 +20,7 @@ public class Pengurangan2 {
         y = 8 - x--;
         z = 8 - --w;
         
+        // menampilkan nilai w, x, y, dan z
         System.out.println("Nilai w adalah " + w);
         System.out.println("Nilai x adalah " + x);
         System.out.println("Nilai y adalah " + y);

@@ -17,11 +17,13 @@ public class Pengurangan {
         int x, y, z;
         x = 42;
         y = x--;
+        // menampilkan nilai x dan y saat ini
         System.out.println("Nilai x adalah " + x);
         System.out.println("Nilai y adalah " + y);
         z = --x;
+        // menampilkan nilai x dan z saat ini
         System.out.println("Nilai x adalah " + x);
-        System.out.println("Nilai y adalah " + z);
+        System.out.println("Nilai z adalah " + z);
         
     }
     

@@ -14,13 +14,15 @@ public class MatematikaCanggihBeraksi {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        // membuat objek dari class MatematikaCanggih
         MatematikaCanggih operasiMatematika = new MatematikaCanggih();
         
+        // memanggil method
         operasiMatematika.tambah(1, 2);
         operasiMatematika.kurang(5, 4);
         operasiMatematika.kali(10, 15);
         operasiMatematika.bagi(18, 2);
-        operasiMatematika.modulus(6, 2);
+        operasiMatematika.modulus(3, 2);
     }
     
 }
