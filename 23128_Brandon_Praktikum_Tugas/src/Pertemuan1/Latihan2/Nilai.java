@@ -12,7 +12,7 @@ public class Nilai {
     String NIM, nama;
     double absen, tugas, UTS, UAS, akhir;
     
-    void Nilai(int inputAbsen, int inputTugas, int inputUTS, int inputUAS){
+    void Nilai(double inputAbsen, double inputTugas, double inputUTS, double inputUAS){
         this.absen = inputAbsen;
         this.tugas = inputTugas;
         this.UTS = inputUTS;

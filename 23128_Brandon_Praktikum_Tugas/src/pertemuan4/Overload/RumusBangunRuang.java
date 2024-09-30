@@ -22,7 +22,6 @@ public class RumusBangunRuang {
     }
     
     // balok
-    // overload method luas dan volume balok dari kubus
     // luas: 2*((p*l)+(p*t)+(l*t))
     double luas(double p, double l, double t){
         return 2*((p*l)+(p*t)+(l*t));
